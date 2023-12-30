@@ -1,0 +1,116 @@
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Sora', sans-serif;
+font-size: 1rem;
+}
+body{
+    background-image: 
+        url("../images/blur-radial.svg");
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-size: 1.25rem;
+    margin: 25px 0px 35px;
+    color: #E5E7EB;
+}
+form{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px #4D5562;
+    border-radius: 15px;
+    background-color: #212936;
+    padding: 50px;
+}
+label{
+    color: #A1A1A9;
+    font-size:  0.75rem;
+}
+input{
+    background-color: transparent;
+    padding: 0px 15px;
+    margin:  10px 0px 25px 0px;
+    border: solid 3px #4D5562;
+    border-radius: 10px;
+    width: 340px;
+    height: 40px;
+    font-size:  0.875rem;
+    color: white;
+}
+button{
+    background: linear-gradient(to top, #652CD1, #845EEE);
+    width: 140px;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+    margin:  10px 0px 0px 0px;
+    border: none;
+    font-size: 0.75rem;
+}
+#inputs-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.error{
+    border-color: red;
+    color: red;
+}
+
+
+/*-------------Step 2 ------------------*/
+.list-topics{
+    list-style-type: none;
+    padding: 0px;
+    color: white;
+}
+li{
+    display: flex;
+    justify-content: left;
+    border: solid 1.5px #4D5562;
+    border-radius: 10px;
+    padding: 15px 180px 15px 15px;
+    margin: 20px 0px;
+    background-color: #394150;
+    color: #A1A1A9;
+}
+li:hover{
+    cursor: pointer;
+} 
+.purple{
+    background-color: #652CD1;
+}
+/*------------summary------------*/
+.content-summary{
+    color:#A1A1A9;
+    font-size: 1rem;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+.info-summ{
+    color: white;
+    font-size: 1rem;
+}
+.summary-list{
+    padding: 0px;
+    list-style-type: disc;
+    color: #A1A1A9;
+}
+.topic{
+    background-color: #212936;
+    border: none;
+    color: white;
+    padding: 0px;
+    display: list-item;
+    margin: 10px 25px;
+}
+.topic:hover{
+    cursor: auto;
+}
